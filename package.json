@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/gtdrag/BuyFluidly/issues"
   },
-  "homepage": "https://github.com/gtdrag/BuyFluidly#readme"
+  "homepage": "https://github.com/gtdrag/BuyFluidly#readme",
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "bulma-start": "0.0.2",
+    "connect": "^3.6.6"
+  }
 }
