@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fluid Network</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
   <script src="/node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
   <link rel="stylesheet" href="/node_modules/bulma-carousel/dist/css/bulma-carousel.min.css">
@@ -13,7 +12,7 @@
 </head>
 <body>
   <section class="header">
-    <div class="level" style="padding:2rem;">
+    <div class="level is-mobile" style="padding:1rem;">
       <div class="level-left">
         <div class="level-item">
          <img src="images/fluid-truck.png" alt="logo image">
@@ -23,16 +22,16 @@
       </div>
     </div>
     <div class="level-right">
-      <div class="level-item">
+      <div class="level-item is-hidden-mobile">
        <input class="input" type="email" placeholder="Email Address">
      </div>
-     <div class="level-item">
+     <div class="level-item is-hidden-mobile">
       <input class="input" type="password" placeholder="Password">
     </div>
     <div class="level-item">
      <a class="button button is-light">Sign In</a>
    </div>
-   <div class="level-item">
+   <div class="level-item is-hidden-mobile">
      <a class="button button is-light">Create An Account</a>
    </div>
  </div>
@@ -48,13 +47,23 @@
   </div>
 </section>
 <!-- /.hero -->
-<section class="section" style="margin-top: -75px;">
-  <div class="level">
+<section class="section" style="margin-top: -30px;">
+  <div class="level is-mobile">
     <div class="buttons has-addons level-item">
-      <span class="button is-large is-active is-dark">For Retailers</span>
-      <span class="button is-large is-light">For Distributors</span>
-    </div>
+      <span class="button is-xlarge is-active is-dark">
+        <div>
+          <h1 class="is-size-3 is-size-5-mobile">For Retailers</h1>
+          <p class="is-size-4 is-hidden-mobile">Restaurants, Bars, and Merchants</p>
+        </div>
+      </span>
+      <span class="button is-xlarge is-light">
+        <div>
+        <h1 class="is-size-3 is-size-5-mobile">For Distributors</h1>
+        <p class="is-size-4 is-hidden-mobile">Importers, Producers, and Suppliers</p>
+      </div>
+    </span>
   </div>
+</div>
 </section>
 <!-- /.section -->
 <section class="section">
@@ -64,7 +73,7 @@
       <div class="column">
         <div class="level">
           <div class="level-item has-text-centered">
-           <figure class="image is-128x128">
+           <figure class="image is-96x96">
             <img src="images/target.png" alt="logo image" />
           </figure>
         </div>
@@ -119,13 +128,13 @@
   <div class="level">
     <div class="level-item">
       <div class="level">
-        <div class="level-item image">
+        <div class="level-item image is-hidden-mobile">
           <img src="images/ornament-left.png" style="max-width: 100%; height: auto;" />
         </div>
         <div class="level-item">
           <p class="is-size-5 has-text-black" style="padding: 0 15px 0 15px;">TRUSTED BY</p>
         </div>
-        <div class="level-item image">
+        <div class="level-item image is-hidden-mobile">
           <figure class="image">
             <img src="images/ornament-right.png" style="max-width: 100%; height: auto;"/>
           </figure>
@@ -252,12 +261,12 @@
         <div class="level" style="margin-left: auto; margin-right: 2rem;">
           <h2 class="title has-text-white" style="margin-right: 10px;">FluidNetwork</h2>
           <figure class="image is-96x96">
-          <img src="images/footer-truck-white.png" alt="logo image">
+            <img src="images/footer-truck-white.png" alt="logo image">
           </figure>
-       </div>
-     </div>
-   </div>
- </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 <!-- /.section -->
 <script type="text/javascript">

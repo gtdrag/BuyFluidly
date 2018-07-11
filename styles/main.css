@@ -8,6 +8,8 @@
     transform: rotate(359deg);
   }
 }
+
+
 .tabs, .pagination-previous,
 .pagination-next,
 .pagination-link,
@@ -2250,6 +2252,25 @@ a.box:active {
 }
 .button.is-large {
   font-size: 1.5rem;
+}
+
+.button.is-xlarge {
+  padding: 2.5rem;
+  }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .button.is-xlarge {
+  padding: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  
+}
+
 }
 .button[disabled] {
   background-color: white;
